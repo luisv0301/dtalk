@@ -390,6 +390,7 @@ section {
 }
 
 .user-card__img {
+  aspect-ratio: 1/1;
   max-width: 132px;
 }
 
@@ -570,8 +571,8 @@ section {
   margin-bottom: 1rem;
 }
 
-.testimonial--only-medium-screen {
-  display: none;
+.testimonial__img{
+  aspect-ratio: 1/1;
 }
 
 .stepper {
