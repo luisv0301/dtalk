@@ -194,7 +194,9 @@ h3 {
   margin-inline: auto;
 }
 
-.form > input {
+.form > input,
+.form > select,
+.select-group > select {
   padding: 0.5rem 1rem;
   background: rgba(87, 83, 78, 0.8);
   border: 1px solid #a8a29e;
@@ -202,6 +204,14 @@ h3 {
   color: #fafaf9;
 }
 
+.select-group {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+.select-group > select {
+  flex: 1;
+}
 .form__title {
   font-weight: 600;
   font-size: 2.5rem;
@@ -209,7 +219,7 @@ h3 {
   color: #fafaf9;
 }
 
-input + label {
+* + label {
   margin-top: 1rem;
 }
 
@@ -571,7 +581,7 @@ section {
   margin-bottom: 1rem;
 }
 
-.testimonial__img{
+.testimonial__img {
   aspect-ratio: 1/1;
 }
 
